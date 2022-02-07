@@ -1,0 +1,60 @@
+#timerIcon,
+#hudClassIcon,
+#ammoIcon{
+  display: none;
+}
+#seasonLabel {
+display: none !important;
+}
+#mainLogo{
+  display: none !important;
+} 
+#timerDisplay {
+  position: fixed;
+  left: 50%;
+  top: 40px;
+  transform: translateX(-50%);
+}
+
+#fpsDisplay{
+    position: fixed !important;
+    font-size: 18px;
+    left: 53%;
+    top: 40px;
+    color: rgba(255,255,255,.5);
+}
+    
+#pingDisplay{
+    position: fixed !important;
+    font-size: 18px;
+    left: 53%;
+    top: 80px;
+    color: rgba(255,255,255,.5);
+}
+#curGameInfo {
+  Font-size: 15px;
+
+}
+#curGameInfo:after {
+    position: absolute; 
+    display: block;
+  Font-size: 16px;
+  Content: 'Kunware';
+  Color: #FF0000;
+}
+div[style="color:rgba(255,255,255,0.6)"]{
+    display: none !important;
+}
+#teamScores {
+    position: fixed !important;
+    top: 150px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    background-color: rgba(0,0,0,.3);
+    border-radius: 14px;
+}
+#aHolder{
+    display: none !important;
+}
