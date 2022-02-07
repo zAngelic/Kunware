@@ -15,22 +15,6 @@ display: none !important;
   top: 40px;
   transform: translateX(-50%);
 }
-
-#fpsDisplay{
-    position: fixed !important;
-    font-size: 18px;
-    left: 53%;
-    top: 40px;
-    color: rgba(255,255,255,.5);
-}
-    
-#pingDisplay{
-    position: fixed !important;
-    font-size: 18px;
-    left: 53%;
-    top: 80px;
-    color: rgba(255,255,255,.5);
-}
 #curGameInfo {
   Font-size: 15px;
 
